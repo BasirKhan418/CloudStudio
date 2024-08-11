@@ -2,11 +2,12 @@
 
 import React from 'react'
 import Home from '@/utils/ReUse/Home'
+import Hero from '@/utils/LandingPage/Hero'
 const Page = () => {
   return (
-    <>
-      <Home />
-    </>
+    <div className="">
+      <Hero />
+    </div>
   )
 }
 
